@@ -20,12 +20,12 @@ public class TestCalculator {
 
     @Test
     public void TestSumIsCorrectForNegative() {
-        Assert.assertEquals(calc.Sum(1, -2), -3);
+        Assert.assertEquals(calc.Sum(1, -2), -1);
     }
 
     @Test
     public void TestSumIsIncorrect() {
-        Assert.assertEquals(calc.Sum(2, 2), 5);
+        Assert.assertEquals(calc.Sum(2, 2), 4);
     }
 
     @Test
@@ -35,7 +35,7 @@ public class TestCalculator {
 
     @Test
     public void TestDivIsIncorrect() throws Exception {
-        Assert.assertEquals(calc.Div(10, 2), 3);
+        Assert.assertEquals(calc.Div(10, 2), 5);
     }
 
     @Test
